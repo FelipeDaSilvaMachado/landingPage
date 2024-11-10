@@ -178,6 +178,12 @@ header {
     width: 270px;
     height: 300px;
     padding: 10px;
+    transition: transform 0.2;
+}
+
+
+.imgBanner .imgContainer img:hover {
+    transform: scale(1.1);
 }
 
 /* Animação para as imagens deslizarem continuamente */
@@ -228,7 +234,12 @@ header {
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     overflow: hidden;
+    transition: transform 0.2s;
     flex-grow: 1;
+}
+
+.produtosGeral:hover {
+    transform: scale(1.1);
 }
 
 .fontProdutosGeral {
