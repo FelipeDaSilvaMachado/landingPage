@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="img/logoNegoStore.ico">
+  <link rel="stylesheet" href="css/estiloCadastro.css">
+  <!-- Importando a fonte Open Sans do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,285..800;1,285..800&display=swap"
+    rel="stylesheet">
+  <title>Cadastro</title>
+</head>
+
+<body>
+  <header>
+    <!-- Cabeçalho da minha landing page -->
+    <div class="divHeaderCadastro">
+      <div id="refreshCadastro">
+        <!-- Aqui estou usando a logo para ser o refresh da pagina -->
+        <a href="cadastro.html">
+          <img class="logoCabecalhoCadastro" src="img/logoNegoStore.jpg" alt="NegoStore23K">
+        </a>
+      </div>
+      <div id="h1Cadastro">
+        <!-- Titulo da pagina -->
+        <h1>NegoStore23K</h1>
+      </div>
+    </div>
+  </header>
+  <h2>Cadastro</h2>
+  <form id="formCadastro">
+    <div class="divLabels">
+      <label for="nome">Nome: </label>
+      <input type="text" id="nome" name="nome" required>
+    </div>
+    <div class="divLabels">
+      <label for="idade">Idade: </label>
+      <input type="text" id="idade" name="idade" onselect="return idade()" required>
+    </div>
+    <div class="divLabels">
+      <label for="telefone">Telefone: </label>
+      <input type="tel" id="telefone" name="telefone" required>
+    </div>
+    <div class="divBtn">
+      <button class="btn" type="button" onclick="enviarWhatsApp()">Cadastrar</button>
+    </div>
+  </form>
+  </div>
+  </div>
+  <!-- Definindo meu Rodapé -->
+  <div id="divRodapeCadastro">
+    <footer>
+      <div class="divLogoInstagramCadastro">
+        <img src="img/instagram.png">
+        <div id="instagramCadastro">
+          <p>
+            Siga-nos no Instagram
+          </p>
+        </div>
+        <a id="linkInstaCadastro" href="https://www.instagram.com/negoo_store23k/" target="_blank"
+          rel="noopener noreferrer">
+          negoo_store23k
+        </a>
+      </div>
+      <div id="logoWhatsCadastro">
+        <img src="img/whatsapp.png">
+        <div id="textoTelCadastro">
+          <p>
+            +55(11)99487-4241
+          </p>
+        </div>
+        <div id="copyRightCadastro">
+          <p>© Developed by Felipe da Silva Machado 2024 Negoo_store23k</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- Fim do Rodapé -->
+  <script src="js/cadastro.js" defer></script>
+</body>
+
+</html>

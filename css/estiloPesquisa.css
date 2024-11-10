@@ -1,0 +1,208 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+.open-sans {
+    display: flex;
+    flex-direction: column;
+    /* Faz com que o body tenha pelo menos a altura da viewport */
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    margin-bottom: 60px;
+    /*<uniquifier>: Use a unique and descriptive class name */
+    /* <weight>: Use a value from 300 to 800*/
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Definicao do meu cabecalho */
+header {
+    display: flex;
+    padding: 3px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(137, 135, 202);
+}
+
+/* Usando na definicao da div do titulo */
+.divHeaderPesquisa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    /* Faz com que a div cresça para ocupar o espaço disponível */
+    flex-grow: 0;
+}
+
+/* Estilizacao do logotipo da loja no cabecalho da pagina */
+.logoCabecalhoPesquisa {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+/* Definicao do link "a" para o tamanho que meu refresh irá ter na pagina */
+#refreshPesquisa {
+    height: 60px;
+}
+
+/* Definicao e estilizacao do meu H1 definido como ID */
+#h1Pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    font-size: 13px;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+
+.itensProcurados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: justify;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 3px;
+}
+
+.divItens {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding-top: 10px;
+    margin: 5px;
+}
+
+.divItens p {
+    width: 100px;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.divCheckBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30px;
+}
+
+.direcaoLabel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#tamanho {
+    display: flex;
+    background-color: rgb(137, 135, 202);
+    margin-left: 10px;
+}
+
+
+#pesquisa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin-top: 10px;
+}
+
+#divBtnPesquisa {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btnEnviaPesquisa {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-left: 10px;
+    background-color: rgb(137, 135, 202);
+    border-radius: 3px;
+    border-color: rgb(0, 0, 0);
+    width: max-content;
+    height: max-content;
+}
+
+/* Estilização e posição da div do meu footer */
+#divRodapePesquisa {
+    display: flex;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    bottom: 0;
+    /* Garante que o footer esteja sobre outros elementos, se necessário */
+    z-index: 1;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.divLogoInstagramPesquisa {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilizacao do logo instagram do footer */
+#instagramPesquisa {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    background-color: rgb(255, 255, 255);
+    margin-left: 3px;
+}
+
+/* Estilizando o texto do instagram do footer */
+#linkInstaPesquisa {
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(137, 135, 202);
+}
+
+/* Estilizacao do logo whatsapp do footer */
+#logoWhatsPesquisa {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 16px;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+/* Estilizando o texto do telefone do footer */
+#textoTelPesquisa {
+    display: flex;
+    margin-left: 3px;
+    flex-grow: 1;
+}
+
+/* Copy Right do site */
+#copyRightPesquisa {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

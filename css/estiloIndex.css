@@ -1,0 +1,279 @@
+/* Definindo as margens padroes da pagina para usar ela por completo */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Corpo da minha landing */
+body,
+.open-sans {
+    display: flex;
+    flex-direction: column;
+    /* Faz com que o body tenha pelo menos a altura da viewport */
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+    margin-bottom: 60px;
+    /*<uniquifier>: Use a unique and descriptive class name */
+    /* <weight>: Use a value from 300 to 800*/
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+/* Estilizacao do logotipo da loja no cabecalho da pagina */
+.logoCabecalho {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+/* Definicao do link "a" para o tamanho que meu refresh irá ter na pagina */
+#refresh {
+    height: 60px;
+}
+
+/* Definicao do meu cabecalho */
+header {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    padding: 3px;
+    width: 100%;
+    height: 80px;
+}
+
+/* Usando na definicao da div do titulo */
+.divHeader {
+    display: flex;
+    width: 425px;
+    height: 65px;
+    /* Faz com que a div cresça para ocupar o espaço disponível */
+    flex-grow: 1;
+}
+
+/* Definicao e estilizacao do meu H1 como só pode
+   ter um em cada pagina utilizo a propria tag como
+   atributo */
+#h1 {
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 3px;
+    box-sizing: border-box;
+}
+
+/* Usando na definicao do meu h3 */
+.h3 {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 365px;
+    font-size: 11.8px;
+    margin-top: 5px;
+}
+
+/* Div do cadastro */
+.divCadastrar {
+    display: flex;
+    width: 125px;
+    height: 30px;
+}
+
+/* Icone do cadastro */
+.iconeCadastro {
+    display: flex;
+    flex-direction: row;
+    width: 20px;
+    height: 25px;
+}
+
+/* Botao de Cadastro */
+.botaoCadastro {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 5px;
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    align-items: center;
+}
+
+#tagACadastro {
+    text-decoration: none;
+    color: rgb(137, 135, 202);
+}
+
+/* Definindo o banner da pagina */
+.banner {
+    display: flex;
+    margin-top: 5px;
+    width: 100%;
+    height: 300px;
+    /* VER QUAL COR DE FUNDO FICA MAIS DA HORA */
+    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(0, 0, 0); */
+    /* background-color: rgb(230, 227, 255); */
+    /* background-color: rgb(39, 39, 39); */
+    /* Esconde as imagens fora do contêiner */
+    overflow: hidden;
+}
+
+/* Definindo as imagens do banner */
+.imgBanner {
+    display: flex;
+    /* Animação contínua */
+    animation: slide 15s linear infinite;
+}
+
+.imgBanner .imgContainer img {
+    /* Cada imagem ocupa 20% do banner */
+    width: 30%;
+    /* O flex-shrink é uma propriedade do
+    CSS Flexbox que controla a capacidade de um 
+    item encolher (shrink) quando o espaço disponível
+    no contêiner flexível é insuficiente para acomodar
+    todos os itens. Em outras palavras, ele define
+    o quanto o item pode diminuir em relação aos
+    outros itens flexíveis quando há falta de espaço no
+    contêiner.
+    Valores:
+    0: O item não encolhe se o espaço for insuficiente.
+    Ele manterá seu tamanho inicial.
+    1 (padrão): O item pode encolher conforme necessário,
+    compartilhando o espaço com outros itens flexíveis.
+    Número maior que 1: O item encolhe mais agressivamente
+    que os outros itens, ocupando menos espaço. */
+    flex-shrink: 1;
+    flex-grow: 1;
+    /* Cada imagem do banner */
+    width: 270px;
+    height: 300px;
+    padding: 10px;
+}
+
+/* Animação para as imagens deslizarem continuamente */
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+/* Estilizando a parte central do site */
+.divPaiSobreNos {
+    display: flex;
+    width: 100%;
+    margin-top: 5px;
+    background-color: rgb(137, 135, 202);
+    padding: 5px;
+}
+
+.pSobreNos {
+    text-align: justify;
+}
+
+#linkPesquisa {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.produtos {
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.produtosGeral {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin: 5px;
+    width: 300px;
+    height: 350px;
+    border: 3px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.fontProdutosGeral {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-grow: 1;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+/* Estilização e posição da div do meu footer */
+#divRodape {
+    display: flex;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    bottom: 0;
+    /* Garante que o footer esteja sobre outros elementos, se necessário */
+    z-index: 1;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.divLogoInstagram {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilizacao do logo instagram do footer */
+#instagram {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    background-color: rgb(255, 255, 255);
+    margin-left: 3px;
+}
+
+/* Estilizando o texto do instagram do footer */
+#linkInsta {
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(137, 135, 202);
+}
+
+/* Estilizacao do logo whatsapp do footer */
+#logoWhats {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 16px;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+/* Estilizando o texto do telefone do footer */
+#textoTel {
+    display: flex;
+    margin-left: 3px;
+    flex-grow: 1;
+}
+
+/* Copy Right do site */
+#copyRight {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

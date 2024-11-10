@@ -1,0 +1,124 @@
+<!-- Menus de navegacao para uma pesquisa mais especifica dos produtos -->
+<!-- <div class="divMenu">
+        <nav class="menu">
+            <ul>
+                <li class="dropdown">
+                    <a class="dropbtn">CAMISETAS</a>
+                    <div class="dropdown-content">
+                        <a href="#">MASCULINO</a>
+                        <a href="#">FEMININO</a>
+                        <a href="#">INFANTIL</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn">BLUSAS</a>
+                    <div class="dropdown-content">
+                        <a href="#">MASCULINO</a>
+                        <a href="#">FEMININO</a>
+                        <a href="#">INFANTIL</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn">CALÇAS</a>
+                    <div class="dropdown-content">
+                        <a href="#">MASCULINO</a>
+                        <a href="#">FEMININO</a>
+                        <a href="#">INFANTIL</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn">BERMUDAS</a>
+                    <div class="dropdown-content">
+                        <a href="#">MASCULINO</a>
+                        <a href="#">FEMININO</a>
+                        <a href="#">INFANTIL</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn">SHORTS</a>
+                    <div class="dropdown-content">
+                        <a href="#">MASCULINO</a>
+                        <a href="#">FEMININO</a>
+                        <a href="#">INFANTIL</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn">MEIAS</a>
+                    <div class="dropdown-content">
+                        <a href="#">MASCULINO</a>
+                        <a href="#">FEMININO</a>
+                        <a href="#">INFANTIL</a>
+                    </div>
+                <li class="dropdown">
+                    <a class="dropbtn">TÊNIS</a>
+                    <div class="dropdown-content">
+                        <a href="#">MASCULINO</a>
+                        <a href="#">FEMININO</a>
+                    </div>
+                </li>
+                </li>
+                <li class="dropdown">
+                    <a class="dropbtn">ACESSÓRIOS</a>
+                    <div class="dropdown-content">
+                        <a href="#">MASCULINO</a>
+                        <a href="#">FEMININO</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </div> -->
+<!-- Aqui inicia meu banner -->
+<!-- <div id="banner" class="banner">
+        <div class="imgBanner">
+            <div class="imgContainer">
+                <img src="img/calLacoste.JPG" alt="Calça Lacoste">
+            </div>
+            <div class="imgContainer">
+                <img src="img/boboJaco.JPG" alt="Bobo Jaco">
+            </div>
+            <div class="imgContainer">
+                <img src="img/jaqAdidas.JPG" alt="Adidas Corta Vento">
+            </div>
+            <div class="imgContainer">
+                <img src="img/tenisNike.JPG" alt="Tenis Nike">
+            </div>
+            <div class="imgContainer">
+                <img src="img/boboJacoLac.JPG" alt="Bobo Jaco Preto">
+            </div>
+            <div class="imgContainer">
+                <img src="img/calLacoste.JPG" alt="Calça Lacoste">
+            </div>
+            <div class="imgContainer">
+                <img src="img/boboJaco.JPG" alt="Bobo Jaco">
+            </div>
+            <div class="imgContainer">
+                <img src="img/jaqAdidas.JPG" alt="Adidas Corta Vento">
+            </div>
+            <div class="imgContainer">
+                <img src="img/tenisNike.JPG" alt="Tenis Nike">
+            </div>
+            <div class="imgContainer">
+                <img src="img/boboJacoLac.JPG" alt="Bobo Jaco Preto">
+            </div>
+        </div>
+    </div> -->
+<!-- Aqui é uma barra de pesquisa para consultar produtos -->
+<!-- <div class="input">
+            <input class="barraPesquisa" type="text" placeholder="O que você procura bem aqui...">
+            <i id="iIcone" class="fas fa-search search-icon"></i>
+        </div> -->
+
+<!--<div class="banner">
+        <div class="slideBanner">
+            <div class="cupomCincoPorcento">
+                <a href="#" onclick="cupomCincoPorcento()">
+                    5% de desconto p/ compras acima de R$ 100,00
+                </a>
+            </div>
+            <div class="cupomDezPorcento">
+                <a href="#" onclick="cupomDezPorcento()">
+                    10% de desconto p/ compras acima de R$ 200,00
+                </a>
+            </div>
+        </div>
+    </div> -->

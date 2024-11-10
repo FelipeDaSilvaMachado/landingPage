@@ -1,0 +1,203 @@
+/* Estilizacao da minha barra de pesquisas */
+/* .input {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start; */
+/* Impede que o input encolha */
+/* flex-shrink: 0;
+    position: relative;
+} */
+
+/* Estilizacao e posicionamento do meu 
+   botao lupa de pesquisas da barra de pesquisas
+   como na página só irá ter essa lupa utilizei o
+   "ID" */
+/* #iIcone {
+    display: flex;
+    color: rgb(0, 0, 0); */
+/* Centraliza verticalmente a lupa */
+/* transform: translateY(10%);
+    padding-left: 2px;
+    position: absolute;
+    left: 2px;
+} */
+
+/* Estilizacao do meu icone de pesquisa "lupa" */
+/* .barraPesquisa {
+    border-color: transparent;
+    background-color: rgb(202, 202, 202);
+    border-radius: 10px;
+    width: 220px;
+    text-align: right;
+    padding-right: 5px;
+} */
+
+/* .divMenu {
+    display: flex;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+} */
+
+/* Definindo o menu de pesquisa no cabecalho */
+/* nav {
+    display: flex;
+} */
+
+/* Definindo a lista nao ordenada do menu */
+/* .menu ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} */
+
+/* Definindo os itens da lista nao ordenada do menu */
+/* .menu ul li {
+    display: flex;
+    position: relative;
+} */
+
+/* Estilizacao do texto dos itens da lista */
+/* .menu ul li a {
+    padding: 14px 14px;
+    text-decoration: none;
+    display: flex;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.menu ul li a:hover {
+    background-color: rgb(255, 255, 255);
+} */
+
+/* Estiliza o menu para que os itens desse
+   menu fiquem escondidos ate que o mouse
+   passe por ele */
+/* .dropdown-content {
+    display: none;
+    background-color: rgb(255, 255, 255);
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgb(0, 0, 0, 0.2);
+    z-index: 1; */
+/* Permite que o menu apareça abaixo */
+/* position: absolute; */
+/* Move o menu dropdown para logo abaixo do item pai */
+/* top: 100%; */
+/* Garante que ele fique alinhado com o item do menu */
+/* left: 0;
+    text-align: left;
+} */
+
+/* Estiliza os itens da lista de cada menu */
+/* .dropdown-content a {
+    display: flex;
+    color: rgb(0, 0, 0);
+} */
+
+/* Esconde o texto dos itens do menu */
+/* .dropdown-content a:hover {
+    background-color: rgb(255, 255, 255);
+} */
+
+/* Esconde o menu e depois exibe ao passar o mouse */
+/* .dropdown:hover .dropdown-content {
+    display: block;
+} */
+
+/* Definindo o banner da pagina */
+/* .banner {
+    display: flex;
+    margin-top: 20px;
+    width: 100%;
+    height: 310px;
+    background-color: rgb(230, 227, 255); */
+    /* Esconde as imagens fora do contêiner */
+    /* overflow: hidden;
+} */
+
+/* Definindo as imagens do banner */
+/* .imgBanner {
+    display: flex;
+    animation: slide 10s linear infinite; */
+    /* Animação contínua */
+/* } */
+
+/* .imgBanner .imgContainer {
+    width: 20%; */
+    /* Cada imagem ocupa 20% do banner */
+    /* flex-shrink: 1; */
+    /* O flex-shrink é uma propriedade do
+    CSS Flexbox que controla a capacidade de um 
+    item encolher (shrink) quando o espaço disponível
+    no contêiner flexível é insuficiente para acomodar
+    todos os itens. Em outras palavras, ele define
+    o quanto o item pode diminuir em relação aos
+    outros itens flexíveis quando há falta de espaço no
+    contêiner.
+    Valores:
+    0: O item não encolhe se o espaço for insuficiente.
+    Ele manterá seu tamanho inicial.
+    1 (padrão): O item pode encolher conforme necessário,
+    compartilhando o espaço com outros itens flexíveis.
+    Número maior que 1: O item encolhe mais agressivamente
+    que os outros itens, ocupando menos espaço. */
+/* } */
+
+/* Cada imagem do banner */
+/* .imgBanner img {
+    padding: 0 5px;
+} */
+
+/* Animação para as imagens deslizarem continuamente */
+/* @keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+} */
+
+/* Estilizando a div do banner */
+/* .banner {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.slideBanner {
+    display: flex;
+    animation: slide 10s linear infinite;
+    width: 200%; */
+    /* Permite o conteúdo exceder a largura do banner */
+    /* transition-timing-function: ease-in-out;
+} */
+
+/* Animação para as imagens deslizarem continuamente */
+/* @keyframes slide {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+} */
+
+/* Conteúdo do Banner */
+/* .cupomCincoPorcento,
+.cupomDezPorcento {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none !important;
+    width: 100vw;
+} */

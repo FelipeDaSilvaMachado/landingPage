@@ -1,0 +1,177 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body,
+.open-sans {
+    display: flex;
+    flex-direction: column;
+    /* Faz com que o body tenha pelo menos a altura da viewport */
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    margin-bottom: 60px;
+    /*<uniquifier>: Use a unique and descriptive class name */
+    /* <weight>: Use a value from 300 to 800*/
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Definicao do meu cabecalho */
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(137, 135, 202);
+}
+
+/* Usando na definicao da div do titulo */
+.divHeaderCadastro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 65px;
+    /* Faz com que a div cresça para ocupar o espaço disponível */
+    flex-grow: 0;
+}
+
+/* Estilizacao do logotipo da loja no cabecalho da pagina */
+.logoCabecalhoCadastro {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+}
+
+/* Definicao do link "a" para o tamanho que meu refresh irá ter na pagina */
+#refreshCadastro {
+    height: 60px;
+}
+
+/* Definicao e estilizacao do meu H1 definido como ID */
+#h1Cadastro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 60px;
+    font-size: 13px;
+    margin-top: 3px;
+    margin-left: 3px;
+    box-sizing: border-box;
+}
+
+#formCadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.divLabels {
+    display: flex;
+    width: 300px;
+    margin-top: 20px;
+}
+
+#nome {
+    display: flex;
+    margin-left: 27px;
+    width: 100px;
+}
+
+#idade {
+    display: flex;
+    margin-left: 30px;
+    width: 100px;
+}
+
+#telefone {
+    display: flex;
+    margin-left: 9px;
+    width: 100px;
+}
+
+.divBtn {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 170px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: rgb(137, 135, 202);
+    border-color: rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+/* Estilização e posição da div do meu footer */
+#divRodapeCadastro {
+    display: flex;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 60px;
+    padding: 5px;
+    bottom: 0;
+    /* Garante que o footer esteja sobre outros elementos, se necessário */
+    z-index: 1;
+}
+
+footer {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+
+.divLogoInstagramCadastro {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Estilizacao do logo instagram do footer */
+#instagramCadastro {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    background-color: rgb(255, 255, 255);
+    margin-left: 3px;
+}
+
+/* Estilizando o texto do instagram do footer */
+#linkInstaCadastro {
+    margin-left: 5px;
+    text-decoration: none;
+    color: rgb(137, 135, 202);
+}
+
+/* Estilizacao do logo whatsapp do footer */
+#logoWhatsCadastro {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 16px;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+/* Estilizando o texto do telefone do footer */
+#textoTelCadastro {
+    display: flex;
+    margin-left: 3px;
+    flex-grow: 1;
+}
+
+/* Copy Right do site */
+#copyRightCadastro {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    align-items: flex-end;
+}

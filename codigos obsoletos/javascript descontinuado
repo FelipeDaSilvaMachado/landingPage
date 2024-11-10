@@ -1,0 +1,89 @@
+// script.js
+// function ajustarBanner(abrir): Define uma função chamada ajustarBanner 
+// que aceita um parâmetro booleano chamado abrir.
+// abrir: Este parâmetro indica se o menu está sendo aberto(true) ou fechado(false).
+// const banner = document.getElementById("banner"): Utiliza o método getElementById
+// para selecionar o elemento do banner no HTML. Isso permite que você modifique suas
+// propriedades de estilo.
+// Estrutura Condicional if:
+// if (abrir): Se abrir for true, a margem superior do banner será aumentada para 150px,
+// fazendo o banner "deslizar" para baixo.
+// else: Se abrir for false, a margem superior do banner será restaurada para 20px,
+// retornando o banner à sua posição original.const dropdownItems = 
+// document.querySelectorAll('.dropdown'): Usa o método querySelectorAll para selecionar
+// todos os elementos que têm a classe dropdown. O resultado é uma lista de elementos
+// (NodeList) que você pode iterar.dropdownItems.forEach(item => { ... }): Para cada
+// item na lista de dropdownItems, você adiciona dois eventos de mouse: mouseenter e
+// mouseleave.
+// item.addEventListener('mouseenter', () => { ... }): Quando o mouse entra em um item
+// do menu (quando o usuário passa o mouse sobre o item):
+// ajustarBanner(true): Chama a função ajustarBanner passando true, indicando que o
+// menu está sendo aberto.
+// item.addEventListener('mouseleave', () => { ... }): Quando o mouse sai de um item do
+// menu (quando o usuário move o mouse para fora do item):
+// ajustarBanner(false): Chama a função ajustarBanner passando false, indicando que o 
+// menu está sendo fechado.
+// Funcionamento Geral
+// Quando o usuário passa o mouse sobre um item do menu dropdown, o evento mouseenter é
+// acionado.
+// O JavaScript chama a função ajustarBanner(true), que aumenta a margem superior do 
+// banner, fazendo-o deslizar para baixo.
+// Quando o usuário move o mouse para fora do item do menu, o evento mouseleave é
+// acionado.
+// O JavaScript chama a função ajustarBanner(false), que restaura a margem superior do
+// banner à sua posição original.
+// Resumo
+// O código JavaScript fornece uma interação dinâmica entre o menu dropdown e o banner,
+// evitando que o banner sobreponha o menu.
+// Ele utiliza eventos do mouse para detectar a interação do usuário e ajustar o layout 
+// da página em resposta a essas interações.
+
+// Função para adicionar margem ao banner quando o menu é aberto
+// function ajustarBanner(abrir) {
+//     // Utiliza o método getElementById para selecionar o elemento do banner no HTML
+//     // que contenha o "id" como elemento.
+//     // Isso permite que você modifique suas propriedades de estilo.
+//     const banner = document.getElementById("banner");
+//     if (abrir) {
+//         // Adiciona uma margem superior quando o menu for aberto
+//         banner.style.marginTop = "150px"; // Ajuste esse valor conforme necessário
+//     } else {
+//         // Restaura a margem original quando o menu for fechado
+//         banner.style.marginTop = "20px"; // A margem original
+//     }
+// }
+
+// Adiciona eventos de mouse sobre cada item do menu
+// const dropdownItems = document.querySelectorAll('.dropdown');
+
+// // Para cada item do menu, adicionamos o evento para quando o mouse passar por cima
+// dropdownItems.forEach(item => {
+//     item.addEventListener('mouseenter', () => {
+//         ajustarBanner(true); // Abre o menu, ajusta o banner
+//     });
+
+//     item.addEventListener('mouseleave', () => {
+//         ajustarBanner(false); // Fecha o menu, restaura o banner
+//     });
+// });
+
+// function verPesquisa() {
+//  var palavraDigitada = []
+// }
+
+// function cupomCincoPorcento() {
+//     document.getElementsByClassName("cupomCincoPorcento")[0].innerHTML = "Cupom Resgatado com sucesso";
+
+// }
+// function cupomDezPorcento() {
+//     document.getElementsByClassName("cupomDezPorcento")[0].innerHTML = "Cupom Resgatado com sucesso";
+// }
+
+// $(".drop")
+//   .mouseover(function() {
+//   $(".dropdown").show(300);
+// });
+// $(".drop")
+//   .mouseleave(function() {
+//   $(".dropdown").hide(300);     
+// });
