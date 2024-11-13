@@ -30,26 +30,25 @@
       </div>
     </div>
   </header>
-  <h2>Cadastro</h2>
+  <h2 id="h2Cadastro">Cadastro</h2>
   <form id="formCadastro">
     <div class="divLabels">
       <label for="nome">Nome: </label>
-      <input type="text" id="nome" name="nome" required>
+      <input type="text" class="nome" name="nome" required tabindex="1">
     </div>
     <div class="divLabels">
       <label for="idade">Idade: </label>
-      <input type="text" id="idade" name="idade" onselect="return idade()" required>
+      <input type="text" class="idade" name="idade" required tabindex="2">
     </div>
     <div class="divLabels">
-      <label for="telefone">Telefone: </label>
-      <input type="tel" id="telefone" name="telefone" required>
+      <label for="telefone">Celular com DDD: </label>
+      <input type="tel" class="telefone" name="celular" required tabindex="3"
+             id="telefone" maxlength="15" onkeyup="telefoneInput(event)">
     </div>
     <div class="divBtn">
-      <button class="btn" type="button" onclick="enviarWhatsApp()">Cadastrar</button>
+      <button class="btn" type="button" onclick="enviarCadastro()">Cadastrar</button>
     </div>
   </form>
-  </div>
-  </div>
   <!-- Definindo meu Rodapé -->
   <div id="divRodapeCadastro">
     <footer>
