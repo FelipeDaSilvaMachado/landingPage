@@ -35,6 +35,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 10px;
     width: 100%;
     height: 65px;
     /* Faz com que a div cresça para ocupar o espaço disponível */
@@ -72,7 +73,7 @@ header {
     align-items: flex-start;
     text-align: justify;
     background-color: rgb(255, 255, 255);
-    margin-left: 5px;
+    margin-left: 20px;
     margin-bottom: 10px;
     width: 100%;
     padding: 3px;

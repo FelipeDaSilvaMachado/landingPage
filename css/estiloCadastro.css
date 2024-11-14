@@ -80,6 +80,12 @@ header {
     margin-top: 20px;
 }
 
+#idUsuario {
+    display: flex;
+    margin-left: 27px;
+    width: 100px;
+}
+
 .nome {
     display: flex;
     margin-left: 27px;

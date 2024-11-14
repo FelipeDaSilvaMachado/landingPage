@@ -33,8 +33,12 @@
   <h2 id="h2Cadastro">Cadastro</h2>
   <form id="formCadastro">
     <div class="divLabels">
+      <label for="idUsuario">Id Usuário: </label>
+      <input type="text" id="idUsuario" maxlength="5" readonly>
+    </div>
+    <div class="divLabels">
       <label for="nome">Nome: </label>
-      <input type="text" class="nome" name="nome" required tabindex="1">
+      <input type="text" class="nome" name="nome" required tabindex="1" autofocus>
     </div>
     <div class="divLabels">
       <label for="idade">Idade: </label>
@@ -42,8 +46,8 @@
     </div>
     <div class="divLabels">
       <label for="telefone">Celular com DDD: </label>
-      <input type="tel" class="telefone" name="celular" required tabindex="3"
-             id="telefone" maxlength="15" onkeyup="telefoneInput(event)">
+      <input type="tel" class="telefone" name="celular" required tabindex="3" id="telefone" maxlength="15"
+        onkeyup="telefoneInput(event)">
     </div>
     <div class="divBtn">
       <button class="btn" type="button" onclick="enviarCadastro()">Cadastrar</button>
