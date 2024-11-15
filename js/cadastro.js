@@ -69,7 +69,7 @@ function enviarCadastro() {
 
     const mensagem = `Olá, tudo bem? Estou me cadastrando em sua loja quais são suas promoções?
                      \nNome: ${nome}\nIdade: ${idade}\nTelefone: ${telefone}`;
-    const numeroWhatsApp = '+5511989217437'; //+5511994874241
+    const numeroWhatsApp = '+5511994874241'; // +5511989217437
     const linkWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
     window.open(linkWhatsApp, '_blank');
     localStorage.setItem('nome', nome);

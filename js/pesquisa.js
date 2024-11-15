@@ -34,7 +34,7 @@ function enviarPesquisa() {
         return; // Para a função se nenhuma opção foi selecionada
     }
 
-    const numeroWhatsApp = '5511989217437'; // Substitua pelo número de telefone desejado
+    const numeroWhatsApp = '+5511994874241'; // +5511989217437 Substitua pelo número de telefone desejado
     const linkWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
 
     // Abre o link do WhatsApp para enviar a mensagem
